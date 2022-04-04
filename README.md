@@ -32,3 +32,14 @@ script1.print_arg()
 ```
 python scripts/script2.py
 ```
+
+### Обсудить
+```
+print('!!!!', __file__, __name__)    #Будет выполнено при импорте
+
+if __name__ == "__main__":
+  print_arg(333)
+```
+
+---
+
